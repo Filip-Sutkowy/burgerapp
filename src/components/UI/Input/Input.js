@@ -53,4 +53,5 @@ const input = props => {
 );
 }
 
+export { input as Input };
 export default input;

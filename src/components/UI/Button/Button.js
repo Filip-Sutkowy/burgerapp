@@ -11,4 +11,6 @@ const button = props => (
   </button>
 );
 
+export { button as Button };
+
 export default button;

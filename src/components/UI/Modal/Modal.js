@@ -28,4 +28,5 @@ class Modal extends Component {
   }
 }
 
+export { Modal };
 export default Modal;
