@@ -1,5 +1,5 @@
 import * as actionTypes from '../actions/actionTypes';
-import { updateObject } from '../utility';
+import { updateObject } from '../../shared/utility';
 
 const initialState = {
 	token: null,
@@ -18,8 +18,7 @@ const authSuccess = (state, action) => {
 		token: action.idToken,
 		userId: action.userId,
 		error: null,
-		loading: false,
-		authRedirectPath: '/'
+		loading: false
 	});
 }
 
