@@ -35,6 +35,10 @@ class Layout extends Component {
         <main className={classes.Content}>
           {this.props.children}
         </main>
+        <footer style={{width: "100%", padding: "15px",boxSizing: 'border-box', textAlign: "center"}}>
+          <span>Created by Filip Sutkowy, check </span>
+          <a target="_blank" href="https://github.com/Filip-Sutkowy/burgerapp" style={{color: "#000"}}>Github repo</a>
+        </footer>
       </Aux>
     );
   }
