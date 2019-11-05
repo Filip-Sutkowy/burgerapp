@@ -14,3 +14,4 @@ Check [DEMO](https://filip-sutkowy.github.io/burgerapp)
 - authentication
 - basic test (jest, enzyme)
 - deploying app to web
+- react Hooks
